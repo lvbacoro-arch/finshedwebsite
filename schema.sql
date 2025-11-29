@@ -35,10 +35,7 @@ CREATE TABLE IF NOT EXISTS order_items (
   FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
 );
 
--- Sample data (optional)
-INSERT INTO products (name, price, stock) VALUES
-('Laptop', 500.00, 10),
-('Phone', 300.00, 5);
+-- Sample data removed. Use separate seed scripts for development if needed.
 
 -- Parts table for more detailed inventory records
 CREATE TABLE IF NOT EXISTS parts (
@@ -53,8 +50,4 @@ CREATE TABLE IF NOT EXISTS parts (
   release_date DATE
 );
 
--- Seed parts with the provided data
-INSERT INTO parts (part_id, part_name, category, manufacturer, model_number, specs, price, stock_quantity, release_date) VALUES
-(1, 'Ryzen 7 7800X', 'CPU', 'AMD', '7800X', '8-core, 16-thread, 4.5GHz', 399.99, 10, '2023-03-15'),
-(2, 'GeForce RTX 4070', 'GPU', 'NVIDIA', '4070', '12GB GDDR6X', 599.99, 5, '2023-04-20'),
-(3, 'Corsair Vengeance 16GB', 'RAM', 'Corsair', 'CMK16GX4M2', 'DDR4, 3200MHz', 79.99, 25, '2022-11-10');
+-- Parts seed data removed. Use separate seed scripts for development if needed.
