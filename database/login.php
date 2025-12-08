@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $stmt = $conn->prepare("SELECT Id, fName, lName, password FROM users WHERE email = ?");
+    $stmt = $conn->prepare("SELECT id, fName, lName, password FROM users WHERE email = ?");
     $stmt->bind_param("s", $email);
     $stmt->execute();
     
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = $result->fetch_assoc();
 
         if (password_verify($password, $row['password'])) {
-            $_SESSION['userId'] = $row['Id'];
+            $_SESSION['userId'] = $row['id'];
             $_SESSION['fName'] = $row['fName'];
             $_SESSION['lName'] = $row['lName'];
             $_SESSION['email'] = $email;
@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 'status' => 'success',
                 'message' => 'Login successful',
                 'user' => [
-                    'id' => $row['Id'],
+                    'id' => $row['id'],
                     'name' => $row['fName'] . ' ' . $row['lName'],
                     'email' => $email
                 ]
