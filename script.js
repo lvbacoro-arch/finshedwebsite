@@ -75,14 +75,18 @@ document.addEventListener('DOMContentLoaded', () => {
             if (cartCount) cartCount.textContent = displayCount;
             if (cartBadge) cartBadge.textContent = displayCount;
 
-            if (this.cart.length === 0) {
+            console.log(this.cart.length);
+
+            if (this.cart.length == 0) {
                 if (cartEmpty) cartEmpty.style.display = 'block';
                 if (cartItemsContainer) cartItemsContainer.style.display = 'none';
                 if (cartFooter) cartFooter.style.display = 'none';
+                cartCount.style.display = 'none';
             } else {
                 if (cartEmpty) cartEmpty.style.display = 'none';
                 if (cartItemsContainer) cartItemsContainer.style.display = 'block';
                 if (cartFooter) cartFooter.style.display = 'block';
+                cartCount.style.display = 'block';
 
                 cartItemsContainer.innerHTML = this.cart.map(item => `
                     <div class="cart-item" data-id="${item.id}">

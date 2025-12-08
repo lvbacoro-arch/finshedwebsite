@@ -62,7 +62,7 @@
                     </label>
                     <label for="cart-toggle" class="action-link" title="Shopping Cart">
                         <i class="fas fa-shopping-cart icon"></i>
-                        <span class="badge cart-badge" id="cart-count">0</span>
+                        <span class="badge cart-badge" id="cart-count" style="display: none;"></span>
                     </label>
                 </div>
             </div>
