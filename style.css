@@ -128,7 +128,7 @@ a {
 }
 /* Removed redundant rule: .fas.fa-shopping-cart, .fas.fa-shopping-bag { ... } */
 
-.` {
+.badge {
     position: absolute;
     top: -6px;
     right: -12px;
