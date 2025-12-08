@@ -26,8 +26,8 @@
     <div class="main-header">
         <div class="container">
             <div class="main-header-grid">
-                <a href="index.html" class="logo">
-                    <img src="Logo/byte.png" alt="Company Logo">
+                <a href="index.php" class="logo">
+                    <img src="images/byte.png" alt="Company Logo">
                 </a>
 
                 <div class="search-bar-container">
@@ -250,7 +250,7 @@
             function loadCartItems() {
                 if (currentCart.length === 0) {
                     dom.summaryList.innerHTML = `<div id="summary-empty-message" style="text-align: center; padding: 20px; color: var(--color-text-subtle);">
-                                Your cart is empty. <a href="index.html" style="color: var(--color-primary-blue);">Go back to shopping</a>.
+                                Your cart is empty. <a href="index.php" style="color: var(--color-primary-blue);">Go back to shopping</a>.
                             </div>`;
                     document.getElementById('placeOrderBtn').disabled = true;
                     dom.summaryEmpty.style.display = 'block';
@@ -311,7 +311,7 @@
                 
                 if (currentCart.length === 0) {
                     alert("Your cart is empty. Cannot place an empty order.");
-                    window.location.href = 'index.html'; // Redirect to shop
+                    window.location.href = 'index.php'; // Redirect to shop
                     return;
                 }
 
@@ -351,7 +351,7 @@
                 alert(`🎉 Order placed successfully!\n\nOrder ID: ${order.orderId}\nTotal: ${formatCurrency(order.total)}\n\nThank you for choosing Byte Hardware!`);
 
                 // Redirect to homepage after order
-                window.location.href = 'index.html';
+                window.location.href = 'index.php';
             });
             
             // --- INITIALIZATION ---

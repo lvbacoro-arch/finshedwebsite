@@ -946,3 +946,44 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Get all tab buttons
+    const tabButtons = document.querySelectorAll('.tabs-header .tab-button');
+    
+    // 2. Add a click listener to each button
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Get the ID of the content pane to display (e.g., 'specs', 'reviews')
+            const targetTabId = button.dataset.tab;
+            
+            // --- Step A: Update Button Classes ---
+            
+            // Remove 'active' class from all buttons
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            
+            // Add 'active' class to the clicked button
+            button.classList.add('active');
+            
+            // --- Step B: Update Content Pane Visibility ---
+            
+            // Get all content panes
+            const tabPanes = document.querySelectorAll('.tabs-content .tab-pane');
+            
+            // Hide all content panes
+            tabPanes.forEach(pane => pane.classList.remove('active'));
+            
+            // Show the target content pane
+            const targetPane = document.getElementById(targetTabId);
+            if (targetPane) {
+                targetPane.classList.add('active');
+            }
+        });
+    });
+
+    // Optional: Trigger the first tab ('Specifications') to ensure content loads on page start
+    const initialTab = document.querySelector('.tabs-header .tab-button[data-tab="specs"]');
+    if (initialTab) {
+        initialTab.click(); 
+    }
+});

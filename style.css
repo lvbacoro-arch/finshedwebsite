@@ -1410,3 +1410,279 @@ a {
         flex: 0 0 80px;
     }
 }
+
+
+/* --- Specifications & Reviews Tabs Section --- */
+
+/* Tab Header Navigation */
+.details-tabs-section {
+    padding: 30px 0;
+}
+.tabs-header {
+    display: flex;
+    border-bottom: 2px solid var(--color-border-gray);
+    margin-bottom: 20px;
+}
+.tab-button {
+    background-color: transparent;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--color-text-subtle);
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+.tab-button:hover:not(.active) {
+    color: var(--color-text-dark);
+}
+.tab-button.active {
+    color: var(--color-primary-blue);
+    border-bottom-color: var(--color-primary-blue);
+}
+.tab-button .badge {
+    background-color: var(--color-primary-blue);
+    color: var(--color-white);
+    padding: 2px 7px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.tab-button.active .badge {
+    background-color: var(--color-danger-red);
+}
+
+/* Tab Content */
+.tabs-content {
+    padding: 10px 0;
+}
+.tab-pane {
+    display: none;
+    animation: fadeIn 0.4s;
+}
+.tab-pane.active {
+    display: block;
+}
+.tab-pane-heading {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--color-text-dark);
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Specifications Table */
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+.specs-table td, .specs-table th {
+    padding: 12px 15px;
+    border-bottom: 1px solid var(--color-border-gray);
+    text-align: left;
+    font-size: 0.95em;
+}
+.specs-table tr:nth-child(even) {
+    background-color: var(--color-category-header); /* light background for alternating rows */
+}
+.specs-table th {
+    background-color: var(--color-primary-blue);
+    color: var(--color-white);
+    font-weight: 700;
+}
+.specs-group-header {
+    background-color: #e9ecef; /* Slightly darker header for groups */
+    color: var(--color-text-dark);
+    font-weight: 700;
+    font-size: 1.1em;
+    padding-top: 20px;
+}
+.specs-table td:first-child {
+    font-weight: 600;
+    width: 30%;
+}
+
+
+/* Reviews Summary */
+.reviews-summary {
+    display: flex;
+    gap: 40px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--color-border-gray);
+    margin-bottom: 20px;
+}
+.overall-rating-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid var(--color-border-gray);
+    border-radius: 8px;
+    min-width: 180px;
+    background-color: var(--color-category-header);
+}
+.overall-score {
+    font-size: 3em;
+    font-weight: 800;
+    color: var(--color-danger-red);
+    display: block;
+    line-height: 1;
+}
+.overall-stars {
+    color: gold;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+.rating-breakdown {
+    flex-grow: 1;
+}
+.rating-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+.rating-bar-row span:first-child {
+    width: 60px;
+    text-align: right;
+    font-size: 0.9em;
+}
+.bar-container {
+    flex-grow: 1;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.bar {
+    height: 100%;
+    background-color: var(--color-primary-blue);
+    transition: width 0.5s;
+}
+.fill-90 { width: 90%; }
+.fill-10 { width: 10%; }
+.fill-5 { width: 5%; }
+.fill-2 { width: 2%; }
+.fill-0 { width: 0%; }
+
+/* Individual Reviews */
+.review-item {
+    border: 1px solid var(--color-border-gray);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.review-author {
+    font-weight: 700;
+    font-size: 1.1em;
+    color: var(--color-text-dark);
+}
+.review-author .verified-icon {
+    color: green;
+    margin-left: 5px;
+}
+.review-date {
+    font-size: 0.85em;
+    color: var(--color-text-subtle);
+}
+.review-stars {
+    color: gold;
+    font-size: 1.2em;
+}
+.review-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.review-body {
+    font-size: 0.95em;
+    color: var(--color-text-dark);
+}
+.btn-load-more {
+    display: block;
+    margin: 20px auto 0;
+    background: none;
+    border: 1px solid var(--color-primary-blue);
+    color: var(--color-primary-blue);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+.btn-load-more:hover {
+    background-color: var(--color-primary-blue);
+    color: var(--color-white);
+}
+
+/* Q&A Section */
+.qa-section {
+    padding: 20px;
+    border: 1px solid var(--color-border-gray);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: var(--color-category-header);
+}
+.qa-section p {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.qa-input {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    resize: vertical;
+}
+.qa-section .btn-primary {
+    /* Use the same style as btn-add-cart for consistency */
+    background-color: var(--color-primary-blue);
+    color: var(--color-white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    transition: background-color 0.2s;
+}
+.qa-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed var(--color-border-gray);
+}
+.qa-item .question {
+    font-weight: 700;
+    color: var(--color-primary-blue);
+    margin-bottom: 5px;
+}
+.qa-item .answer {
+    color: var(--color-text-dark);
+    padding-left: 15px;
+}
+
+/* Media Query Adjustments */
+@media (max-width: 768px) {
+    .reviews-summary {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .overall-rating-box {
+        min-width: 100%;
+        margin-bottom

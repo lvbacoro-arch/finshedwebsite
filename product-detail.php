@@ -31,8 +31,8 @@
     <div class="main-header">
         <div class="container">
             <div class="main-header-grid">
-                <a href="index.html" class="logo">
-                    <img src="Logo/byte.png" alt="Company Logo">
+                <a href="index.php" class="logo">
+                    <img src="images/byte.png" alt="Company Logo">
                 </a>
 
                 <div class="search-bar-container">
@@ -119,8 +119,158 @@
         </section>
 
         <section class="details-tabs-section">
-            <h3 class="section-title">Specifications & Reviews</h3>
-            </section>
+            <div class="tabs-header">
+                <button class="tab-button active" data-tab="specs">
+                    <i class="fas fa-list-alt"></i> Specifications
+                </button>
+                <button class="tab-button" data-tab="reviews">
+                    <i class="fas fa-star"></i> Reviews 
+                    <span class="badge reviews-count">(45)</span>
+                </button>
+                <button class="tab-button" data-tab="qa">
+                    <i class="fas fa-question-circle"></i> Q&A
+                </button>
+            </div>
+
+            <div class="tabs-content">
+                
+                <div id="specs" class="tab-pane active">
+                    <h4 class="tab-pane-heading">Technical Specifications</h4>
+                    <table class="specs-table">
+                        <tbody>
+                            <tr>
+                                <th colspan="2" class="specs-group-header">Graphics Core</th>
+                            </tr>
+                            <tr>
+                                <td>GPU Architecture</td>
+                                <td>Ada Lovelace</td>
+                            </tr>
+                            <tr>
+                                <td>CUDA Cores</td>
+                                <td>7680</td>
+                            </tr>
+                            <tr>
+                                <td>Boost Clock</td>
+                                <td>2610 MHz (Factory Overclocked)</td>
+                            </tr>
+                            
+                            <tr>
+                                <th colspan="2" class="specs-group-header">Memory Details</th>
+                            </tr>
+                            <tr>
+                                <td>Video Memory (VRAM)</td>
+                                <td>12GB GDDR6X</td>
+                            </tr>
+                            <tr>
+                                <td>Memory Interface</td>
+                                <td>192-bit</td>
+                            </tr>
+                            <tr>
+                                <td>Memory Clock</td>
+                                <td>21 Gbps</td>
+                            </tr>
+
+                            <tr>
+                                <th colspan="2" class="specs-group-header">Power & Connectivity</th>
+                            </tr>
+                            <tr>
+                                <td>Power Connectors</td>
+                                <td>1x 16-pin (12VHPWR)</td>
+                            </tr>
+                            <tr>
+                                <td>Recommended PSU</td>
+                                <td>700W</td>
+                            </tr>
+                            <tr>
+                                <td>Outputs</td>
+                                <td>3x DisplayPort 1.4, 1x HDMI 2.1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="reviews" class="tab-pane">
+                    <div class="reviews-summary">
+                        <div class="overall-rating-box">
+                            <span class="overall-score">4.8</span>
+                            <div class="overall-stars">★★★★★</div>
+                            <p>Based on 45 verified reviews</p>
+                        </div>
+                        <div class="rating-breakdown">
+                            <div class="rating-bar-row">
+                                <span>5 Stars</span>
+                                <div class="bar-container"><div class="bar fill-90"></div></div>
+                                <span class="count">38</span>
+                            </div>
+                            <div class="rating-bar-row">
+                                <span>4 Stars</span>
+                                <div class="bar-container"><div class="bar fill-10"></div></div>
+                                <span class="count">4</span>
+                            </div>
+                            <div class="rating-bar-row">
+                                <span>3 Stars</span>
+                                <div class="bar-container"><div class="bar fill-5"></div></div>
+                                <span class="count">2</span>
+                            </div>
+                            <div class="rating-bar-row">
+                                <span>2 Stars</span>
+                                <div class="bar-container"><div class="bar fill-0"></div></div>
+                                <span class="count">0</span>
+                            </div>
+                            <div class="rating-bar-row">
+                                <span>1 Star</span>
+                                <div class="bar-container"><div class="bar fill-2"></div></div>
+                                <span class="count">1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="write-review-section">
+                        <button class="btn-primary">Write a Review</button>
+                    </div>
+
+                    <div class="customer-reviews-list">
+                        <div class="review-item">
+                            <div class="review-header">
+                                <span class="review-author">Mark D. L. <i class="fas fa-check-circle verified-icon" title="Verified Purchase"></i></span>
+                                <span class="review-date">Dec 5, 2025</span>
+                                <div class="review-stars">★★★★★</div>
+                            </div>
+                            <h5 class="review-title">Absolute Beast!</h5>
+                            <p class="review-body">Upgraded from a 3070 and the performance jump is insane. Ray tracing is actually usable now, and DLSS 3 is magic in Cyberpunk. Stays cool even under heavy load.</p>
+                        </div>
+
+                        <div class="review-item">
+                            <div class="review-header">
+                                <span class="review-author">Jane T.</span>
+                                <span class="review-date">Nov 28, 2025</span>
+                                <div class="review-stars">★★★★☆</div>
+                            </div>
+                            <h5 class="review-title">Great Card, Pricey</h5>
+                            <p class="review-body">Fantastic 4K performance, smooth gameplay across all my titles. Docking one star because the price is still a bit high compared to last generation, but no regrets on the performance.</p>
+                        </div>
+                        
+                        <button class="btn-load-more">Load More Reviews</button>
+                    </div>
+                </div>
+
+                <div id="qa" class="tab-pane">
+                    <h4 class="tab-pane-heading">Customer Questions & Answers</h4>
+                    <div class="qa-section">
+                        <p>Have a question about the **RTX 4070 Ti**? Ask the community!</p>
+                        <textarea class="qa-input" placeholder="Enter your question here..."></textarea>
+                        <button class="btn-primary">Submit Question</button>
+                    </div>
+                    <div class="qa-list">
+                        <div class="qa-item">
+                            <p class="question">Q: Does this card use the standard 8-pin power connector?</p>
+                            <p class="answer">A: No, this model uses the new 16-pin (12VHPWR) connector, though an adapter is usually included in the box.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
@@ -222,7 +372,7 @@
                 <span>Subtotal:</span>
                 <span id="cart-subtotal">₱0.00</span>
             </div>
-            <button class="checkout-btn" onclick="window.location.href='checkout.html'">Proceed to Checkout</button>
+            <button class="checkout-btn" onclick="window.location.href='checkout.php'">Proceed to Checkout</button>
             <button class="continue-shopping-btn" onclick="document.getElementById('cart-toggle').checked = false;">Continue Shopping</button>
         </div>
     </div>

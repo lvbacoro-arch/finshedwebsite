@@ -155,10 +155,10 @@
                     <div class="product-card" data-id="1" data-name="RTX 4070 Ti 12GB Gaming GPU" data-price="45999" data-category="Graphics Cards" data-image="https://placehold.co/200x160/F7F7F7/333?text=GPU">
                         <div class="hover-bar">
                             <a href="#" class="action-icon" title="Add to Wishlist"><i class="far fa-heart"></i></a>
-                            <a href="product-detail.html" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
+                            <a href="product-detail.php" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
                             <a href="#" class="action-icon" title="Compare"><i class="fas fa-random"></i></a>
                         </div>
-                        <a href="product-detail.html" class="product-link">
+                        <a href="product-detail.php" class="product-link">
                         <img src="https://placehold.co/200x160/F7F7F7/333?text=GPU" alt="High-End Graphics Card" class="product-image">
                         <p class="product-category">Graphics Cards</p>
                         <h4 class="product-name">RTX 4070 Ti 12GB Gaming GPU</h4>
@@ -170,10 +170,10 @@
                     <div class="product-card" data-id="2" data-name="Intel Core i7-14700K Desktop CPU" data-price="25950" data-category="Processors" data-image="https://placehold.co/200x160/F7F7F7/333?text=CPU">
                         <div class="hover-bar">
                             <a href="#" class="action-icon" title="Add to Wishlist"><i class="far fa-heart"></i></a>
-                            <a href="product-detail.html" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
+                            <a href="product-detail.php" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
                             <a href="#" class="action-icon" title="Compare"><i class="fas fa-random"></i></a>
                         </div>
-                        <a href="product-detail.html" class="product-link">
+                        <a href="product-detail.php" class="product-link">
                         <img src="https://placehold.co/200x160/F7F7F7/333?text=CPU" alt="Desktop Processor" class="product-image">
                         <p class="product-category">Processors</p>
                         <h4 class="product-name">Intel Core i7-14700K Desktop CPU</h4>
@@ -185,10 +185,10 @@
                     <div class="product-card" data-id="3" data-name="32GB DDR5 (2x16GB) RGB RAM Kit" data-price="8995" data-category="Memory" data-image="https://placehold.co/200x160/F7F7F7/333?text=RAM">
                         <div class="hover-bar">
                             <a href="#" class="action-icon" title="Add to Wishlist"><i class="far fa-heart"></i></a>
-                            <a href="product-detail.html" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
+                            <a href="product-detail.php" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
                             <a href="#" class="action-icon" title="Compare"><i class="fas fa-random"></i></a>
                         </div>
-                        <a href="product-detail.html" class="product-link">
+                        <a href="product-detail.php" class="product-link">
                         <img src="https://placehold.co/200x160/F7F7F7/333?text=RAM" alt="RAM Modules" class="product-image">
                         <p class="product-category">Memory</p>
                         <h4 class="product-name">32GB DDR5 (2x16GB) RGB RAM Kit</h4>
@@ -200,10 +200,10 @@
                     <div class="product-card" data-id="4" data-name="Z790 Chipset ATX Motherboard" data-price="18500" data-category="Motherboards" data-image="https://placehold.co/200x160/F7F7F7/333?text=MB">
                         <div class="hover-bar">
                             <a href="#" class="action-icon" title="Add to Wishlist"><i class="far fa-heart"></i></a>
-                            <a href="product-detail.html" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
+                            <a href="product-detail.php" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
                             <a href="#" class="action-icon" title="Compare"><i class="fas fa-random"></i></a>
                         </div>
-                        <a href="product-detail.html" class="product-link">
+                        <a href="product-detail.php" class="product-link">
                         <img src="https://placehold.co/200x160/F7F7F7/333?text=MB" alt="Motherboard" class="product-image">
                         <p class="product-category">Motherboards</p>
                         <h4 class="product-name">Z790 Chipset ATX Motherboard</h4>
@@ -215,10 +215,10 @@
                     <div class="product-card" data-id="5" data-name="2TB NVMe M.2 Gen4 SSD" data-price="7299" data-category="Storage" data-image="https://placehold.co/200x160/F7F7F7/333?text=SSD">
                         <div class="hover-bar">
                             <a href="#" class="action-icon" title="Add to Wishlist"><i class="far fa-heart"></i></a>
-                            <a href="product-detail.html" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
+                            <a href="product-detail.php" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
                             <a href="#" class="action-icon" title="Compare"><i class="fas fa-random"></i></a>
                         </div>
-                        <a href="product-detail.html" class="product-link">
+                        <a href="product-detail.php" class="product-link">
                         <img src="https://placehold.co/200x160/F7F7F7/333?text=SSD" alt="SSD Storage" class="product-image">
                         <p class="product-category">Storage</p>
                         <h4 class="product-name">2TB NVMe M.2 Gen4 SSD</h4>
@@ -230,10 +230,10 @@
                     <div class="product-card" data-id="6" data-name="Mid-Tower Case w/ Tempered Glass" data-price="4150" data-category="PC Cases" data-image="https://placehold.co/200x160/F7F7F7/333?text=Case">
                         <div class="hover-bar">
                             <a href="#" class="action-icon" title="Add to Wishlist"><i class="far fa-heart"></i></a>
-                            <a href="product-detail.html" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
+                            <a href="product-detail.php" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
                             <a href="#" class="action-icon" title="Compare"><i class="fas fa-random"></i></a>
                         </div>
-                        <a href="product-detail.html" class="product-link">
+                        <a href="product-detail.php" class="product-link">
                         <img src="https://placehold.co/200x160/F7F7F7/333?text=Case" alt="PC Case" class="product-image">
                         <p class="product-category">PC Cases</p>
                         <h4 class="product-name">Mid-Tower Case w/ Tempered Glass</h4>
@@ -245,10 +245,10 @@
                     <div class="product-card" data-id="7" data-name="27-inch 144Hz Gaming Monitor" data-price="16999" data-category="Peripherals" data-image="https://placehold.co/200x160/F7F7F7/333?text=Monitor">
                         <div class="hover-bar">
                             <a href="#" class="action-icon" title="Add to Wishlist"><i class="far fa-heart"></i></a>
-                            <a href="product-detail.html" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
+                            <a href="product-detail.php" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
                             <a href="#" class="action-icon" title="Compare"><i class="fas fa-random"></i></a>
                         </div>
-                        <a href="product-detail.html" class="product-link">
+                        <a href="product-detail.php" class="product-link">
                         <img src="https://placehold.co/200x160/F7F7F7/333?text=Monitor" alt="Gaming Monitor" class="product-image">
                         <p class="product-category">Peripherals</p>
                         <h4 class="product-name">27-inch 144Hz Gaming Monitor</h4>
@@ -260,10 +260,10 @@
                     <div class="product-card" data-id="8" data-name="Mechanical RGB Keyboard, Blue Switches" data-price="4750" data-category="Accessories" data-image="https://placehold.co/200x160/F7F7F7/333?text=Keyboard">
                         <div class="hover-bar">
                             <a href="#" class="action-icon" title="Add to Wishlist"><i class="far fa-heart"></i></a>
-                            <a href="product-detail.html" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
+                            <a href="product-detail.php" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
                             <a href="#" class="action-icon" title="Compare"><i class="fas fa-random"></i></a>
                         </div>
-                        <a href="product-detail.html" class="product-link">
+                        <a href="product-detail.php" class="product-link">
                         <img src="https://placehold.co/200x160/F7F7F7/333?text=Keyboard" alt="Mechanical Keyboard" class="product-image">
                         <p class="product-category">Accessories</p>
                         <h4 class="product-name">Mechanical RGB Keyboard, Blue Switches</h4>
@@ -275,10 +275,10 @@
                     <div class="product-card" data-id="9" data-name="850W 80+ Gold Modular PSU" data-price="6200" data-category="Components" data-image="https://placehold.co/200x160/F7F7F7/333?text=PSU">
                         <div class="hover-bar">
                             <a href="#" class="action-icon" title="Add to Wishlist"><i class="far fa-heart"></i></a>
-                            <a href="product-detail.html" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
+                            <a href="product-detail.php" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
                             <a href="#" class="action-icon" title="Compare"><i class="fas fa-random"></i></a>
                         </div>
-                        <a href="product-detail.html" class="product-link">
+                        <a href="product-detail.php" class="product-link">
                         <img src="https://placehold.co/200x160/F7F7F7/333?text=PSU" alt="Power Supply Unit" class="product-image">
                         <p class="product-category">Components</p>
                         <h4 class="product-name">850W 80+ Gold Modular PSU</h4>
@@ -290,10 +290,10 @@
                     <div class="product-card" data-id="10" data-name="240mm AIO Liquid CPU Cooler" data-price="5800" data-category="Cooling" data-image="https://placehold.co/200x160/F7F7F7/333?text=Cooler">
                         <div class="hover-bar">
                             <a href="#" class="action-icon" title="Add to Wishlist"><i class="far fa-heart"></i></a>
-                            <a href="product-detail.html" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
+                            <a href="product-detail.php" class="action-icon" title="Quick View"><i class="fas fa-eye"></i></a>
                             <a href="#" class="action-icon" title="Compare"><i class="fas fa-random"></i></a>
                         </div>
-                        <a href="product-detail.html" class="product-link">
+                        <a href="product-detail.php" class="product-link">
                         <img src="https://placehold.co/200x160/F7F7F7/333?text=Cooler" alt="CPU Cooler" class="product-image">
                         <p class="product-category">Cooling</p>
                         <h4 class="product-name">240mm AIO Liquid CPU Cooler</h4>
@@ -350,7 +350,7 @@
                 <span>Subtotal:</span>
                 <span id="cart-subtotal">₱0.00</span>
             </div>
-            <button class="checkout-btn" onclick="window.location.href='checkout.html'">Proceed to Checkout</button>
+            <button class="checkout-btn" onclick="window.location.href='checkout.php'">Proceed to Checkout</button>
             <button class="continue-shopping-btn" onclick="document.getElementById('cart-toggle').checked = false;">Continue Shopping</button>
         </div>
     </div>
